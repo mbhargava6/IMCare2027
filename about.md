@@ -17,6 +17,14 @@ Our team is made up of physicians, nurses, registered cardiac sonographers and m
 
 <p><a class="btn btn--primary" href="{{ '/team/' | relative_url }}">Meet the IMCare team</a></p>
 
+## Dr. Bhargava's writing
+
+{% assign SS = site.data.site.substack %}
+
+{{ SS.blurb }}
+
+<p><a class="btn btn--outline" href="{{ SS.url }}" target="_blank" rel="noopener">{% include icon.html name="book" %} {{ SS.link_text }}</a></p>
+
 ## Documents
 
 - [Letter to patients (PDF)]({{ site.data.site.letter_to_patients | relative_url }})

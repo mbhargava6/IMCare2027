@@ -28,6 +28,9 @@
           {%- for item in site.data.nav.footer -%}
           <li><a href="{{ item.url | relative_url }}">{{ item.name }}</a></li>
           {%- endfor -%}
+          {%- if S.substack -%}
+          <li><a href="{{ S.substack.url }}" target="_blank" rel="noopener">Dr. Bhargava's writing</a></li>
+          {%- endif -%}
         </ul>
       </div>
     </div>

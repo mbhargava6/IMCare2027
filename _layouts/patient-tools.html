@@ -13,6 +13,15 @@ layout: default
   <div class="wrap">
     <div class="content prose">{{ content }}</div>
 
+    {%- assign SS = site.data.site.substack -%}
+    {%- if SS -%}
+    <aside class="callout callout--substack">
+      <h2>{% include icon.html name="book" %}{{ SS.title }}</h2>
+      <p>{{ SS.blurb }}</p>
+      <p class="callout-action"><a class="btn btn--primary btn--sm" href="{{ SS.url }}" target="_blank" rel="noopener">{{ SS.link_text }} {% include icon.html name="external" %}</a></p>
+    </aside>
+    {%- endif -%}
+
     <!-- Topic chooser -->
     <nav class="topic-picker" id="topic-picker" aria-label="Choose a topic">
       <h2 class="picker-title">What are you looking for?</h2>

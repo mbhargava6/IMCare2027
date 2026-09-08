@@ -19,6 +19,8 @@
   subsections:
     - name: "Read about it"
       elements:
+        - name: "Dr. Bhargava's writing on health and the evidence behind it"
+          link: https://substack.com/@drmukeshbhargava681319/posts
         - name: "Heart-healthy living"
           link: https://www.ottawaheart.ca/patients-visitors/tools-resources/patient-guides/heart-healthy-living-guide
         - name: "Getting active again after a heart problem (cardiac rehab)"

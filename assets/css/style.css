@@ -504,3 +504,19 @@ a:hover { color: var(--brand-ink); }
   font-weight: 600; color: var(--ink-mute); text-decoration: none; }
 .back-to-top a:hover { color: var(--brand-deep); }
 .back-to-top svg { width: .9em; height: .9em; transform: rotate(-90deg); }
+
+/* ---------- Dr. Bhargava's writing callout ---------- */
+.callout--substack { display: grid; gap: .35rem; margin-block: 0 var(--s6); }
+.callout--substack h2 {
+  font-family: var(--font-body); font-size: 1.2rem; font-weight: 650; letter-spacing: -.01em;
+  display: flex; align-items: center; gap: .6rem; margin-bottom: .25rem;
+}
+.callout--substack h2 svg { width: 1.4rem; height: 1.4rem; color: var(--brand); flex: none; }
+.callout--substack p { margin-bottom: 0; max-width: 62ch; color: var(--ink-soft); }
+.callout--substack .callout-action { margin-top: var(--s2); }
+@media (min-width: 780px) {
+  .callout--substack { grid-template-columns: 1fr auto; align-items: center; column-gap: var(--s4); }
+  .callout--substack h2 { grid-column: 1; }
+  .callout--substack p:not(.callout-action) { grid-column: 1; }
+  .callout--substack .callout-action { grid-column: 2; grid-row: 1 / span 2; margin-top: 0; }
+}

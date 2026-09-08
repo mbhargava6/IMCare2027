@@ -209,3 +209,29 @@ destination of each is unchanged.
 | Symptom Recognition Checklist | When should I call? A symptom checklist | Staying Well |
 | Signs of a Stroke | How to recognise a stroke | Stroke |
 | Stroke Warning Signs | Warning signs of a stroke | Stroke |
+
+## Dr. Bhargava's Substack — added 8 September 2026
+
+Linked from four places, all driven by one block in `_data/site.yml`. Delete
+that block and every link disappears at once.
+
+| Where | How it appears |
+| --- | --- |
+| Patient Tools | A highlighted panel above the topic chooser — the most visible spot on the page |
+| Patient Tools → Staying Well | First item under "Read about it" |
+| About IMCare | Its own short section with a button |
+| Footer, every page | "Dr. Bhargava's writing" in the Site list |
+
+**Please check the wording.** Substack needs JavaScript to render, so the
+posts could not be read to describe them. The current text is:
+
+> **Dr. Bhargava writes about health**
+> Longer reads on nutrition, prevention and the evidence behind common health
+> advice, written for a general audience.
+
+Both lines are in `_data/site.yml` under `substack:` — edit them there and all
+four places update together.
+
+The link points at the profile URL supplied: `substack.com/@drmukeshbhargava681319/posts`.
+If the publication gets its own address (something.substack.com or a custom
+domain), that is the better link to use, since profile URLs can change.

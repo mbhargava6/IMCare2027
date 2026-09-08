@@ -31,6 +31,15 @@ address:
 # The Ocean / CognisantMD patient portal used for secure messaging.
 secure_message_url: "https://ocean.cognisantmd.com/intake/patients.html?eReqRef=2638cce1-20df-4ec3-a828-aaf88f0844c0#/eRequest"
 
+# Dr. Bhargava's Substack. Delete this whole block to remove the link from
+# the website — it disappears from the Patient Tools page, the About page and
+# the footer at the same time.
+substack:
+  url: "https://substack.com/@drmukeshbhargava681319/posts"
+  title: "Dr. Bhargava writes about health"
+  blurb: "Longer reads on nutrition, prevention and the evidence behind common health advice, written for a general audience."
+  link_text: "Read Dr. Bhargava's posts"
+
 referral_form: "/assets/pdf/IMCare_referral_form.pdf"
 privacy_policy_pdf: "/assets/pdf/IMCare_privacy_policy.pdf"
 letter_to_patients: "/assets/pdf/IMCare_letter_to_patients.pdf"
