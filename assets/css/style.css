@@ -512,6 +512,7 @@ a:hover { color: var(--brand-ink); }
   display: flex; align-items: center; gap: .6rem; margin-bottom: .25rem;
 }
 .callout--substack h2 svg { width: 1.4rem; height: 1.4rem; color: var(--brand); flex: none; }
+.callout-byline { font-weight: 500; font-size: .92rem; color: var(--ink-mute); letter-spacing: 0; }
 .callout--substack p { margin-bottom: 0; max-width: 62ch; color: var(--ink-soft); }
 .callout--substack .callout-action { margin-top: var(--s2); }
 @media (min-width: 780px) {

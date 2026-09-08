@@ -210,28 +210,35 @@ destination of each is unchanged.
 | Signs of a Stroke | How to recognise a stroke | Stroke |
 | Stroke Warning Signs | Warning signs of a stroke | Stroke |
 
-## Dr. Bhargava's Substack — added 8 September 2026
+## Beyond the Heartline — added 8 September 2026
 
-Linked from four places, all driven by one block in `_data/site.yml`. Delete
-that block and every link disappears at once.
+Dr. Bhargava's Substack, linked from four places, all driven by one block in
+`_data/site.yml`. Delete that block and every link disappears at once.
 
 | Where | How it appears |
 | --- | --- |
 | Patient Tools | A highlighted panel above the topic chooser — the most visible spot on the page |
 | Patient Tools → Staying Well | First item under "Read about it" |
-| About IMCare | Its own short section with a button |
-| Footer, every page | "Dr. Bhargava's writing" in the Site list |
+| About IMCare | Its own section, headed "Beyond the Heartline" |
+| Footer, every page | "Beyond the Heartline" in the Site list |
 
-**Please check the wording.** Substack needs JavaScript to render, so the
-posts could not be read to describe them. The current text is:
+The wording on the site is the publication's own name and its own description,
+taken from the newsletter's RSS feed rather than written for it:
 
-> **Dr. Bhargava writes about health**
-> Longer reads on nutrition, prevention and the evidence behind common health
-> advice, written for a general audience.
+> **Beyond the Heartline** — Dr. Bhargava's newsletter
+> A newsletter exploring the intersection of medicine, technology, and human
+> experience, written by a physician passionate about AI, creativity, and
+> compassionate care.
 
-Both lines are in `_data/site.yml` under `substack:` — edit them there and all
-four places update together.
+Both lines are in `_data/site.yml` under `substack:`; editing them there
+updates all four places together.
 
-The link points at the profile URL supplied: `substack.com/@drmukeshbhargava681319/posts`.
-If the publication gets its own address (something.substack.com or a custom
-domain), that is the better link to use, since profile URLs can change.
+The link is the publication address, `beyondtheheartline.substack.com` — more
+durable than a Substack profile URL, which changes if the handle changes.
+
+**Not done, worth considering:** the page does not list recent posts. Titles
+would go stale the moment a new one is published, and a static site cannot
+read the feed at page load without JavaScript that Substack's CORS policy may
+block. If recent posts on the site are wanted, the reliable route is to add
+the three or four current titles to `_data/site.yml` by hand and refresh them
+when a new post goes out.

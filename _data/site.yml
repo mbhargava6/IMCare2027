@@ -35,10 +35,11 @@ secure_message_url: "https://ocean.cognisantmd.com/intake/patients.html?eReqRef=
 # the website — it disappears from the Patient Tools page, the About page and
 # the footer at the same time.
 substack:
-  url: "https://substack.com/@drmukeshbhargava681319/posts"
-  title: "Dr. Bhargava writes about health"
-  blurb: "Longer reads on nutrition, prevention and the evidence behind common health advice, written for a general audience."
-  link_text: "Read Dr. Bhargava's posts"
+  url: "https://beyondtheheartline.substack.com/"
+  title: "Beyond the Heartline"
+  byline: "Dr. Bhargava's newsletter"
+  blurb: "A newsletter exploring the intersection of medicine, technology, and human experience, written by a physician passionate about AI, creativity, and compassionate care."
+  link_text: "Read Beyond the Heartline"
 
 referral_form: "/assets/pdf/IMCare_referral_form.pdf"
 privacy_policy_pdf: "/assets/pdf/IMCare_privacy_policy.pdf"

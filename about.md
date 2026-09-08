@@ -17,9 +17,11 @@ Our team is made up of physicians, nurses, registered cardiac sonographers and m
 
 <p><a class="btn btn--primary" href="{{ '/team/' | relative_url }}">Meet the IMCare team</a></p>
 
-## Dr. Bhargava's writing
+## Beyond the Heartline
 
 {% assign SS = site.data.site.substack %}
+
+*{{ SS.byline }}*
 
 {{ SS.blurb }}
 

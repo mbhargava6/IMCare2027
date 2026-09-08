@@ -16,7 +16,7 @@ layout: default
     {%- assign SS = site.data.site.substack -%}
     {%- if SS -%}
     <aside class="callout callout--substack">
-      <h2>{% include icon.html name="book" %}{{ SS.title }}</h2>
+      <h2>{% include icon.html name="book" %}{{ SS.title }}{% if SS.byline %} <span class="callout-byline">{{ SS.byline }}</span>{% endif %}</h2>
       <p>{{ SS.blurb }}</p>
       <p class="callout-action"><a class="btn btn--primary btn--sm" href="{{ SS.url }}" target="_blank" rel="noopener">{{ SS.link_text }} {% include icon.html name="external" %}</a></p>
     </aside>
