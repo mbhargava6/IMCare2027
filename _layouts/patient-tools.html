@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="page-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">/</span> Patient Tools</p>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="section">
+  <div class="wrap">
+    <div class="content prose">{{ content }}</div>
+
+    <div class="tools-search">
+      <label for="tool-filter">Search these resources</label>
+      <input type="search" id="tool-filter" placeholder="e.g. blood pressure, melanoma, holter" autocomplete="off">
+      <p class="tools-count" id="tool-count" role="status"></p>
+    </div>
+
+    <div id="tool-sections">
+    {%- for section in site.data.patient_tools -%}
+      <section class="tool-section" data-section>
+        <h2>{% include icon.html name=section.icon %}{{ section.name }}</h2>
+        <div class="tool-cols">
+          {%- for sub in section.subsections -%}
+          <div data-sub>
+            <h3>{{ sub.name }}</h3>
+            <ul class="tool-list">
+              {%- for el in sub.elements -%}
+              {%- assign is_pdf = el.link | slice: -4, 4 -%}
+              <li data-item data-name="{{ el.name | downcase }} {{ section.name | downcase }} {{ sub.name | downcase }}">
+                <a href="{{ el.link | relative_url }}" target="_blank" rel="noopener">
+                  <span>{{ el.name }}</span>
+                  {%- if is_pdf == '.pdf' -%}<span class="kind">PDF</span>
+                  {%- elsif sub.name == 'Video Education' -%}<span class="kind">Video</span>
+                  {%- else -%}<span class="kind">Web</span>{%- endif -%}
+                </a>
+              </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+          {%- endfor -%}
+        </div>
+      </section>
+    {%- endfor -%}
+    </div>
+    <p class="no-results" id="tool-empty" hidden>No resources match that search. Try a shorter word, or clear the box to see everything.</p>
+  </div>
+</div>
+
+{% include cta.html %}

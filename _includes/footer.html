@@ -1,0 +1,39 @@
+{%- assign S = site.data.site -%}
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-logo"><img src="{{ '/images/logo/imcare-logo.png' | relative_url }}" alt="IMCare" width="455" height="160"></span>
+        <p>{{ S.tagline }}.<br>We see patients in-person and virtually.</p>
+      </div>
+      <div>
+        <h4>Visit us</h4>
+        <p>
+          {{ S.address.line1 }}<br>
+          {{ S.address.city }} {{ S.address.province }} {{ S.address.postal_code }}<br>
+          <em>{{ S.address.landmark }}</em>
+        </p>
+        <p>
+          Tel. <a href="tel:{{ S.phone_link }}">{{ S.phone }}</a><br>
+          Fax. {{ S.fax }}
+        </p>
+        <p>
+          <strong style="color:#e9e3e0">{{ S.hours.summary }}</strong><br>
+          {{ S.hours.note }}
+        </p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          {%- for item in site.data.nav.footer -%}
+          <li><a href="{{ item.url | relative_url }}">{{ item.name }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {{ 'now' | date: "%Y" }} IMCare. All rights reserved.</span>
+      <span>This website does not provide medical advice. In an emergency, call 911.</span>
+    </div>
+  </div>
+</footer>

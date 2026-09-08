@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="page-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">/</span> Services</p>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="section">
+  <div class="wrap">
+    {%- for group in site.data.services -%}
+    <section class="service-block" id="{{ group.id }}">
+      <div class="service-head">
+        <span class="card-icon">{% include icon.html name=group.icon %}</span>
+        <h2>{{ group.name }}</h2>
+        <p>{{ group.intro }}</p>
+        {% if group.detail %}<p class="service-detail">{{ group.detail }}</p>{% endif %}
+      </div>
+      <ul class="service-list">
+        {%- for item in group.items -%}
+        <li>
+          <span class="s-name">{{ item.name }}</span>
+          {%- if item.link -%}
+          <a class="tag" href="{{ item.link | relative_url }}" target="_blank" rel="noopener">
+            {% if item.link_label == 'video' %}{% include icon.html name="video" %}{% else %}{% include icon.html name="file" %}{% endif %}{{ item.link_label }}
+          </a>
+          {%- endif -%}
+          {%- if item.note %}<span class="s-note">{{ item.note }}</span>{% endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+    {%- endfor -%}
+
+    <div class="content prose" style="margin-top: var(--s5)">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+{% include cta.html %}

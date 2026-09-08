@@ -1,0 +1,203 @@
+# ---------------------------------------------------------------------------
+# Patient Tools. Sections -> subsections -> links.
+# Links starting with "/" are files in this site (assets/pdf/...).
+# Everything else opens on an external website in a new tab.
+#
+# Carried over from the previous site. Corrections made during the rebuild:
+#   - "Defribrillator" spelling fixed to "Defibrillator"
+#   - two identical ICD links merged into one entry
+#   - broken links repaired: Exercise for Bone Health (stray character),
+#     Portfolio diet (missing leading slash)
+# ---------------------------------------------------------------------------
+
+- name: Decision Making
+  icon: compass
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Symptom Recognition Checklist
+          link: /assets/pdf/symptom_recognition_checklist.pdf
+        - name: NIH Health Topics A-Z
+          link: https://www.nccih.nih.gov/health/atoz
+        - name: Alphabetical List of Decision Aids by Topic
+          link: https://decisionaid.ohri.ca/AZlist.html
+        - name: Ottawa Personal Decision Guide
+          link: https://decisionaid.ohri.ca/docs/das/OPDG.pdf
+        - name: Ottawa Personal Decision Guide for Two
+          link: https://decisionaid.ohri.ca/docs/das/OPDGx2.pdf
+
+- name: Heart & Brain
+  icon: heart
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Angina
+          link: https://watchlearnlive.heart.org/?moduleSelect=angina
+        - name: Angiogram
+          link: https://watchlearnlive.heart.org/?moduleSelect=angiog
+        - name: Angioplasty
+          link: https://watchlearnlive.heart.org/?moduleSelect=angiop
+        - name: Atrial Fibrillation
+          link: https://www.ottawaheart.ca/living-atrial-fibrillation
+        - name: Personalized Risk Assessment
+          link: https://hershbhargava.com
+        - name: Coronary Artery Disease
+          link: https://www.ottawaheart.ca/coronary-artery-disease-patient-guide
+        - name: Diabetes Medications
+          link: https://www.ottawaheart.ca/patients-visitors/tools-resources/patient-guides/diabetes-medications
+        - name: Heart Failure
+          link: https://www.ottawaheart.ca/heart-failure-patient-guide
+        - name: Cardiac Catheterization & Angioplasty
+          link: https://www.ottawaheart.ca/cardiac-catheterization-angioplasty-guide
+        - name: Complex Ablation
+          link: https://www.ottawaheart.ca/complex-ablation-patient-guide
+        - name: Electrophysiology Studies and Standard Ablation
+          link: https://www.ottawaheart.ca/electrophysiology-studies-and-standard-ablation-guide
+        - name: Heart Transplant
+          link: https://www.ottawaheart.ca/heart-transplant
+        - name: Implantable Cardioverter Defibrillator (ICD)
+          link: https://www.ottawaheart.ca/implantable-cardioverter-defibrillator-patient-guide
+        - name: Lp(a) Clinical Guidance
+          link: https://www.lpaclinicalguidance.com/
+    - name: Video Education
+      elements:
+        - name: Artery Getting Blocked
+          link: https://vimeo.com/197539682
+        - name: Heart Attack (Blockage)
+          link: https://vimeo.com/197539560
+        - name: Atrial Fibrillation
+          link: https://youtu.be/TJep5K7SGDw?si=sIMIsiOIeA6xYGJo
+        - name: Congestive Heart Failure
+          link: https://www.youtube.com/watch?v=GnpLm9fzYxU
+        - name: Women & Heart Attack
+          link: https://www.youtube.com/watch?v=t7wmPWTnDbE
+        - name: Pacemaker & Defibrillator
+          link: https://www.youtube.com/watch?v=SMXBR_YFocs
+        - name: Signs of a Stroke
+          link: https://www.youtube.com/watch?v=HUjYQBFoRqo
+        - name: Forks Over Knives Movie
+          link: https://vimeo.com/ondemand/forksoverknives
+        - name: Stress Test
+          link: https://www.youtube.com/watch?v=Po1QwMsCorU
+        - name: Holter Monitor
+          link: https://www.youtube.com/watch?v=u3Lr3P6eZh0
+    - name: Handouts
+      elements:
+        - name: Blood Pressure Self Management Checklist
+          link: /assets/pdf/blood_pressure_self_management_checklist.pdf
+        - name: Heart Function Self Management Checklist
+          link: /assets/pdf/heart_function_self_management_checklist.pdf
+        - name: Stroke Warning Signs
+          link: /assets/pdf/stroke_warning_signs.pdf
+        - name: Control Your Blood Pressure
+          link: /assets/pdf/control_your_blood_pressure.pdf
+        - name: Control Your Cholesterol
+          link: https://food-guide.canada.ca/en/
+        - name: Control Your Diabetes
+          link: /assets/pdf/control_your_diabetes.pdf
+        - name: Control Your Weight
+          link: /assets/pdf/control_your_weight.pdf
+        - name: Become Smoke Free
+          link: /assets/pdf/become_smoke_free.pdf
+        - name: Living Well with Heart Disease
+          link: /assets/pdf/living_well_with_heart_disease.pdf
+        - name: Portfolio Diet
+          link: /assets/pdf/portfolio_diet.pdf
+        - name: Atrial Fibrillation (IMCare)
+          link: /assets/pdf/IMCare_atrial_fibrillation_education.pdf
+        - name: Coronary Artery Disease Medications (IMCare)
+          link: /assets/pdf/IMCare_coronary_artery_disease_medications.pdf
+        - name: Heart Failure Medications (IMCare)
+          link: /assets/pdf/IMCare_heart_failure_medications.pdf
+        - name: Heart Function Self-Management Checklist & Tracker (IMCare)
+          link: /assets/pdf/IMCare_heart_function_self_management_checklist_and_tracker.pdf
+        - name: Pacemaker Implantation
+          link: https://www.ottawaheart.ca/pacemaker-implantation-patient-guide
+        - name: Recovering from Cardiac Surgery
+          link: https://www.ottawaheart.ca/recovering-cardiac-surgery
+        - name: TAVI (Transcatheter Aortic Valve Implant)
+          link: https://www.ottawaheart.ca/tavi-transcatheter-aortic-valve-implant-guide
+        - name: Therapeutic Hypothermia
+          link: https://www.ottawaheart.ca/therapeutic-hypothermia-patient-guide
+        - name: Waiting for Cardiac Surgery
+          link: https://www.ottawaheart.ca/waiting-cardiac-surgery
+        - name: Cardiac Rehabilitation – Physical Activity
+          link: https://www.ottawaheart.ca/cardiac-rehabilitation-physical-activity-guide
+        - name: Heart Healthy Living
+          link: https://www.ottawaheart.ca/patients-visitors/tools-resources/patient-guides/heart-healthy-living-guide
+
+- name: Skin
+  icon: skin
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Actinic Keratosis
+          link: https://www.skincancer.org/skin-cancer-information/actinic-keratosis/
+        - name: Acne
+          link: https://www.aad.org/public/diseases/acne/skin-care/tips
+        - name: Skin care for acne patients
+          link: https://www.aad.org/public/diseases/acne/skin-care/habits-stop
+        - name: Melanoma Warning Signs
+          link: https://www.skincancer.org/skin-cancer-information/melanoma/melanoma-warning-signs-and-images/
+        - name: Sunburn
+          link: https://www.aad.org/public/everyday-care/injured-skin/burns/treat-sunburn
+        - name: Contact Dermatitis
+          link: https://www.healthline.com/health/contact-dermatitis
+        - name: ABCDEs of Melanoma
+          link: https://www.aad.org/public/diseases/skin-cancer/find/at-risk/abcdes
+        - name: What to expect during a skin cancer check?
+          link: https://health.clevelandclinic.org/skin-cancer-screening-what-to-expect-during-a-full-body-skin-exam/
+        - name: How to take photos of skin conditions for a virtual visit
+          link: https://www.dermpics.com/home
+        - name: Self Skin Examination
+          link: https://www.aad.org/public/diseases/skin-cancer/find/at-risk/mole-map
+        - name: Eczema
+          link: https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis
+        - name: Hair Loss
+          link: https://nyulangone.org/conditions/hair-loss/types
+    - name: Video Education
+      elements:
+        - name: Sensitive Skin
+          link: https://www.youtube.com/watch?v=IBdTnBtWGgg
+        - name: Self Skin Exam
+          link: https://www.youtube.com/watch?v=QlbRfcVBsnI
+        - name: Actinic Keratosis
+          link: https://www.youtube.com/watch?v=Pl9SyyWINiU
+    - name: Handouts
+      elements:
+        - name: Alopecia / Hair Loss
+          link: /assets/pdf/alopecia_hairloss.pdf
+        - name: Managing your hair loss
+          link: /assets/pdf/managing_hair_loss.pdf
+        - name: Basal Cell Skin Cancer
+          link: /assets/pdf/basal_cell_carcinoma.pdf
+        - name: Prevention of Skin Cancer
+          link: /assets/pdf/prevention_of_skin_cancer.pdf
+        - name: Squamous Cell Carcinoma
+          link: /assets/pdf/squamous_cell_carcinoma.pdf
+        - name: Patch Testing
+          link: /assets/pdf/patch_testing.pdf
+
+- name: Bone Health
+  icon: bone
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Exercise for Bone Health
+          link: https://osteoporosis.ca/exercise
+        - name: Nutritious Recipes for Bone Health
+          link: https://osteoporosis.ca/recipes
+
+- name: Preparing for Your Test
+  icon: clipboard
+  subsections:
+    - name: Handouts
+      elements:
+        - name: Understanding Holter Monitoring
+          link: /assets/pdf/IMCare_understanding_holter_monitoring.pdf
+        - name: What is Ambulatory Blood Pressure Monitoring (ABPM)?
+          link: /assets/pdf/IMCare_what_is_ABPM.pdf
+        - name: Stress Testing Instructions
+          link: /assets/pdf/IMCare_stress_testing_instructions.pdf
+        - name: Stress Echo Instructions
+          link: /assets/pdf/IMCare_stress_echo_instructions.pdf

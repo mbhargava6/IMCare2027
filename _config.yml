@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------------------
+# Jekyll configuration. GitHub Pages reads this file when it builds the site.
+# Day-to-day content edits do NOT belong here — see _data/site.yml instead.
+# ---------------------------------------------------------------------------
+
+title: "IMCare"
+description: "IMCare is an Internal Medicine specialist practice in Port Hope, Ontario. Cardiac and skin care, in-person and virtually, with our own echocardiography lab."
+url: "https://www.imcare.ca"
+lang: en-CA
+
+permalink: pretty
+timezone: America/Toronto
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - EDITING.md
+  - CONTENT-REVIEW.md
+  - vendor
+  - node_modules

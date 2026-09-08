@@ -1,0 +1,90 @@
+---
+layout: default
+---
+{%- assign S = site.data.site -%}
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Port Hope, Ontario</p>
+        <h1>Specialist care, close to&nbsp;home at <span class="accent">IMCare</span></h1>
+        <p class="hero-sub">We are Internal Medicine specialists based in Port Hope, Ontario. We see patients in-person and virtually.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="{{ S.secure_message_url }}" target="_blank" rel="noopener">
+            {% include icon.html name="message" %}Send a secure message
+          </a>
+          <a class="btn btn--outline" href="{{ '/services/' | relative_url }}">See our services</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="{{ '/images/clinic-hero.jpg' | relative_url }}" alt="" width="1480" height="832" fetchpriority="high">
+        <div class="hero-badge">
+          <strong>New here?</strong>
+          <span>Ask your family doctor to fax a referral to {{ S.fax }}, or <a href="{{ S.referral_form | relative_url }}" target="_blank" rel="noopener">download our referral form</a>.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include actions.html %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose" style="margin-bottom: var(--s5)">
+      <p class="eyebrow">What we do</p>
+      <h2>Our areas of specialist care</h2>
+      <p class="lede">We provide a variety of services at IMCare. We are dedicated to providing the highest possible quality of care.</p>
+    </div>
+    {%- assign svc = site.data.services -%}
+    <div class="grid {% if svc.size == 2 %}grid--2{% else %}grid--3{% endif %}">
+      {%- for group in svc -%}
+      <a class="card card--link" href="{{ '/services/' | relative_url }}#{{ group.id }}">
+        <span class="card-icon">{% include icon.html name=group.icon %}</span>
+        <h3>{{ group.name }}</h3>
+        <p>{{ group.summary }}</p>
+        <span class="card-more">See what's included {% include icon.html name="arrow-right" %}</span>
+      </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap">
+    <div class="prose" style="margin-bottom: var(--s5)">
+      <p class="eyebrow">About IMCare</p>
+      <h2>Dedicated to the highest quality of care</h2>
+      <div class="content">{{ content }}</div>
+    </div>
+    <div class="grid grid--3">
+      {%- for point in site.data.about_points -%}
+      <div class="card">
+        <span class="card-icon">{% include icon.html name=point.icon %}</span>
+        <h3>{{ point.title }}</h3>
+        <p>{{ point.body }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose center" style="margin: 0 auto var(--s5)">
+      <p class="eyebrow">Words from our patients</p>
+      <h2>What people tell us</h2>
+    </div>
+    <div class="quotes">
+      {%- for t in site.data.testimonials limit: 6 -%}
+      <figure class="quote">
+        <blockquote>&ldquo;{{ t.quote }}&rdquo;</blockquote>
+        <figcaption>{{ t.author }} <span style="font-weight:400">({{ t.role }})</span></figcaption>
+      </figure>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% include cta.html %}
