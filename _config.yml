@@ -8,6 +8,15 @@ description: "IMCare is an Internal Medicine specialist practice in Port Hope, O
 url: "https://www.imcare.ca"
 lang: en-CA
 
+# baseurl — READ THIS BEFORE CHANGING IT.
+# GitHub serves this repo at mbhargava6.github.io/IMCare2027/, i.e. inside a
+# subfolder, so every link and image needs that prefix to resolve. The line
+# below adds it.
+# WHEN YOU MOVE THE SITE TO imcare.ca, DELETE THE LINE BELOW (or set it to "").
+# imcare.ca serves from the root, and leaving the prefix in place would break
+# every link and image on the live site.
+baseurl: "/IMCare2027"
+
 permalink: pretty
 timezone: America/Toronto
 

@@ -48,20 +48,27 @@ Requires Ruby 3.x and Bundler.
 
 ## Going live on imcare.ca
 
-The site currently deploys to the GitHub Pages URL for this repository. To move
-`www.imcare.ca` over:
+The site currently deploys to the GitHub Pages URL for this repository,
+`mbhargava6.github.io/IMCare2027/`. Because that URL serves the site from a
+subfolder, `_config.yml` sets `baseurl: "/IMCare2027"` so links and images
+resolve.
 
-1. **Settings → Pages** in this repo — confirm the source is `main` / root and
+To move `www.imcare.ca` over:
+
+1. **Delete the `baseurl` line from `_config.yml`** (or set it to `""`).
+   imcare.ca serves from the root, and leaving the prefix in would break every
+   link and image on the live site. This is the step that is easiest to forget.
+2. **Settings → Pages** in this repo — confirm the source is `main` / root and
    the build is green.
-2. Add a file named `CNAME` at the top level of this repo containing exactly:
+3. Add a file named `CNAME` at the top level of this repo containing exactly:
    `imcare.ca`
-3. Remove the `CNAME` file from the old `imcare-canada.github.io` repo (a
+4. Remove the `CNAME` file from the old `imcare-canada.github.io` repo (a
    custom domain can only be claimed by one repository at a time).
-4. In **Settings → Pages → Custom domain**, enter `imcare.ca` and tick
+5. In **Settings → Pages → Custom domain**, enter `imcare.ca` and tick
    **Enforce HTTPS** once the certificate is issued (usually a few minutes).
-5. DNS stays as it is — it already points at GitHub Pages.
+6. DNS stays as it is — it already points at GitHub Pages.
 
-Do steps 2 and 3 close together; between them the domain will not resolve.
+Do steps 3 and 4 close together; between them the domain will not resolve.
 
 ## Notes
 
