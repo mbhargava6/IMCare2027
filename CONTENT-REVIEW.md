@@ -59,21 +59,18 @@ operation that was not already on the old site.
 
 ## Still worth deciding before launch
 
-1. **Two team members are listed as Respirologists** — Dr. Obed Adarkwah
-   (visible) and Dr. Darius Seidler (hidden) — but Pulmonary Medicine is no
-   longer offered as a service. Worth confirming whether their listed roles
-   should change, or whether they should come off the team page.
-2. **The privacy page** on the old site actually contained the practice's
+1. **The privacy page** on the old site actually contained the practice's
    founding history, not a privacy policy. That text now lives on
    `/about/`, and `/privacy-policy/` links to the privacy PDF.
-3. **`/about/` used to be the team page.** It is now a genuine About page that
+2. **`/about/` used to be the team page.** It is now a genuine About page that
    links to `/team/`. Any external links to `imcare.ca/about/` will still work
    but will land somewhere different.
-4. **11 team members are hidden** (`hidden: true` in `_data/team.yml`) because
+3. **13 team members are hidden** (`hidden: true` in `_data/team.yml`) because
    their profiles were switched off on the old site. Worth checking whether any
    should be restored: Darius Seidler, Khalid Pasha, Natasha Thompson, Kaitlin
    Dizon, Sohayla Arabi, Kathleen Bowles, Sarah Saunders, Shannon Murphy, Darla
-   Murphy, Kathy Boon, Loretta Tamburello.
-5. **External links were not machine-checked.** 60 of the 77 Patient Tools
+   Murphy, Kathy Boon, Loretta Tamburello. Obed Adarkwah and Simran Jeet were
+   hidden on 8 September 2026 at Dr. Bhargava's request.
+4. **External links were not machine-checked.** 60 of the 77 Patient Tools
    links point to other organisations' websites (Ottawa Heart, AAD, Cleveland
    Clinic, Vimeo, YouTube). They should be clicked through once before launch.

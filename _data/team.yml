@@ -43,6 +43,7 @@
   role: "Respirologist"
   group: physicians
   photo: "obed-adarkwah.jpg"
+  hidden: true
   bio: "Dr. Adarkwah joined IMCare in 2025."
 
 - name: "Cathy Stafford, RN"
@@ -121,6 +122,7 @@
   role: "Medical Coordinator"
   group: coordinators
   photo: "simran-jeet.jpg"
+  hidden: true
   bio: "Simran joined the IMCare team in 2025."
 
 # ---------------------------------------------------------------------------
