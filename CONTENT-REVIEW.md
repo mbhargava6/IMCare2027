@@ -74,3 +74,138 @@ operation that was not already on the old site.
 4. **External links were not machine-checked.** 60 of the 77 Patient Tools
    links point to other organisations' websites (Ottawa Heart, AAD, Cleveland
    Clinic, Vimeo, YouTube). They should be clicked through once before launch.
+
+## Patient Tools rebuilt in plain language — 8 September 2026
+
+Dr. Bhargava asked for the page to be organised by what a patient actually
+came looking for, in words a patient would use.
+
+**All 77 links are still there.** This was verified link-by-link against the
+previous version: none lost, none added. What changed is how they are grouped
+and what each one is called.
+
+### New topics
+
+| Topic | What it covers | Items |
+| --- | --- | --- |
+| Staying Well | Food, activity, quitting smoking, knowing when to ask for help | 11 |
+| Heart Disease | Chest pain, heart attacks, heart failure, rhythm problems, procedures | 28 |
+| Stroke | Warning signs and what to do | 2 |
+| Blood Pressure, Diabetes & Cholesterol | The everyday numbers that protect the heart and vessels | 7 |
+| Skin & Hair | Rashes, moles, skin cancer, acne, hair loss | 21 |
+| Bone Health | Keeping bones strong (osteoporosis) | 2 |
+| Getting Ready for Your Test | What to expect and how to prepare | 6 |
+
+The previous groupings — "Decision Making", "Heart & Brain", "Skin", "Bone
+Health", "Preparing for Your Test" — are gone. Stroke was pulled out of
+"Heart & Brain" into its own topic, and blood pressure, diabetes and
+cholesterol were pulled out of the heart handouts into their own topic.
+
+**"Cardiometabolic disease" is titled "Blood Pressure, Diabetes &
+Cholesterol"** on the page. The medical term is accurate but is not what a
+patient would search for. Say the word if you would rather it carried the
+clinical name.
+
+### Two topics are thin
+
+**Stroke has only 2 resources** (the warning-signs handout and one video) and
+**Bone Health has 2** (exercise and recipes from Osteoporosis Canada). Both
+now have their own card on the page, which sets an expectation the content
+does not yet meet. Worth adding a few resources to each, or folding them back
+into a neighbouring topic.
+
+### Navigation
+
+- A **topic chooser** at the top: seven cards, each with a plain description
+  and a count, jumping to that section.
+- The **search box** now hides the chooser while you are searching and reports
+  an honest count. Searching matches the resource name and its topic only.
+- Within each topic, resources are grouped as **Read about it** / **Watch a
+  short video** / **Handouts to print** instead of "Web Resources / Video
+  Education / Handouts".
+- A **Back to all topics** link closes every section.
+
+### Every reworded link, for checking
+
+77 of the 77 labels were rewritten in plainer language. The
+destination of each is unchanged.
+
+| Was called | Now called | Topic |
+| --- | --- | --- |
+| Blood Pressure Self Management Checklist | Blood pressure tracking checklist | Blood Pressure, Diabetes & Cholesterol |
+| Diabetes Medications | Diabetes medicines explained | Blood Pressure, Diabetes & Cholesterol |
+| Lp(a) Clinical Guidance | Lipoprotein(a) — an inherited cholesterol risk | Blood Pressure, Diabetes & Cholesterol |
+| Control Your Blood Pressure | Lowering your blood pressure | Blood Pressure, Diabetes & Cholesterol |
+| Control Your Diabetes | Managing your diabetes | Blood Pressure, Diabetes & Cholesterol |
+| Control Your Weight | Managing your weight | Blood Pressure, Diabetes & Cholesterol |
+| Personalized Risk Assessment | Your personal risk assessment | Blood Pressure, Diabetes & Cholesterol |
+| Exercise for Bone Health | Exercise for strong bones | Bone Health |
+| Nutritious Recipes for Bone Health | Recipes for strong bones | Bone Health |
+| What is Ambulatory Blood Pressure Monitoring (ABPM)? | 24-hour blood pressure monitoring (ABPM) | Getting Ready for Your Test |
+| Stress Echo Instructions | How to prepare for a stress echo | Getting Ready for Your Test |
+| Stress Testing Instructions | How to prepare for a stress test | Getting Ready for Your Test |
+| Holter Monitor | Wearing a Holter monitor | Getting Ready for Your Test |
+| Understanding Holter Monitoring | Wearing a Holter monitor | Getting Ready for Your Test |
+| Stress Test | What happens during a stress test | Getting Ready for Your Test |
+| Complex Ablation | Ablation for a complex rhythm problem | Heart Disease |
+| Angiogram | Angiogram — taking pictures of your heart arteries | Heart Disease |
+| Angioplasty | Angioplasty — opening a narrowed artery | Heart Disease |
+| TAVI (Transcatheter Aortic Valve Implant) | Aortic valve replacement without open surgery (TAVI) | Heart Disease |
+| Cardiac Catheterization & Angioplasty | Cardiac catheterization and angioplasty — what to expect | Heart Disease |
+| Angina | Chest pain from the heart (angina) | Heart Disease |
+| Therapeutic Hypothermia | Cooling treatment after cardiac arrest (therapeutic hypothermia) | Heart Disease |
+| Pacemaker Implantation | Getting a pacemaker | Heart Disease |
+| Women & Heart Attack | Heart attack in women — how it can feel different | Heart Disease |
+| Heart Failure | Heart failure | Heart Disease |
+| Congestive Heart Failure | Heart failure explained | Heart Disease |
+| Heart Failure Medications (IMCare) | Heart failure medicines (IMCare) | Heart Disease |
+| Heart Function Self Management Checklist | Heart function checklist | Heart Disease |
+| Heart Function Self-Management Checklist & Tracker (IMCare) | Heart function checklist and daily tracker (IMCare) | Heart Disease |
+| Electrophysiology Studies and Standard Ablation | Heart rhythm testing and ablation | Heart Disease |
+| Heart Transplant | Heart transplant | Heart Disease |
+| Artery Getting Blocked | How an artery becomes blocked | Heart Disease |
+| Implantable Cardioverter Defibrillator (ICD) | Implantable defibrillator (ICD) | Heart Disease |
+| Atrial Fibrillation | Irregular heartbeat (atrial fibrillation) | Heart Disease |
+| Atrial Fibrillation | Irregular heartbeat (atrial fibrillation) | Heart Disease |
+| Atrial Fibrillation (IMCare) | Irregular heartbeat — atrial fibrillation (IMCare) | Heart Disease |
+| Living Well with Heart Disease | Living well with heart disease | Heart Disease |
+| Coronary Artery Disease Medications (IMCare) | Medicines for narrowed heart arteries (IMCare) | Heart Disease |
+| Coronary Artery Disease | Narrowed heart arteries (coronary artery disease) | Heart Disease |
+| Pacemaker & Defibrillator | Pacemakers and defibrillators | Heart Disease |
+| Recovering from Cardiac Surgery | Recovering from heart surgery | Heart Disease |
+| Waiting for Cardiac Surgery | Waiting for heart surgery | Heart Disease |
+| Heart Attack (Blockage) | What happens in a heart attack | Heart Disease |
+| Skin care for acne patients | Acne — habits to stop | Skin & Hair |
+| Acne | Acne — skin care that helps | Skin & Hair |
+| Basal Cell Skin Cancer | Basal cell skin cancer | Skin & Hair |
+| ABCDEs of Melanoma | Checking a mole — the ABCDEs | Skin & Hair |
+| Eczema | Eczema (atopic dermatitis) | Skin & Hair |
+| Alopecia / Hair Loss | Hair loss (alopecia) | Skin & Hair |
+| Self Skin Examination | How to check your own skin | Skin & Hair |
+| Self Skin Exam | How to examine your own skin | Skin & Hair |
+| Prevention of Skin Cancer | How to prevent skin cancer | Skin & Hair |
+| Sensitive Skin | Looking after sensitive skin | Skin & Hair |
+| Managing your hair loss | Managing hair loss | Skin & Hair |
+| Patch Testing | Patch testing — finding what your skin reacts to | Skin & Hair |
+| Contact Dermatitis | Rash from something you touched (contact dermatitis) | Skin & Hair |
+| Actinic Keratosis | Rough, scaly spots (actinic keratosis) | Skin & Hair |
+| Actinic Keratosis | Rough, scaly spots (actinic keratosis) | Skin & Hair |
+| Squamous Cell Carcinoma | Squamous cell skin cancer | Skin & Hair |
+| How to take photos of skin conditions for a virtual visit | Taking a photo of your skin for a video visit | Skin & Hair |
+| Sunburn | Treating a sunburn | Skin & Hair |
+| Hair Loss | Types of hair loss | Skin & Hair |
+| Melanoma Warning Signs | Warning signs of melanoma | Skin & Hair |
+| What to expect during a skin cancer check? | What happens at a skin cancer check | Skin & Hair |
+| Become Smoke Free | Becoming smoke free | Staying Well |
+| Control Your Cholesterol | Canada's Food Guide — healthy eating | Staying Well |
+| Alphabetical List of Decision Aids by Topic | Decision guides, listed by topic | Staying Well |
+| Forks Over Knives Movie | Forks Over Knives — a documentary about food and health | Staying Well |
+| Cardiac Rehabilitation – Physical Activity | Getting active again after a heart problem (cardiac rehab) | Staying Well |
+| NIH Health Topics A-Z | Health topics A to Z (US National Institutes of Health) | Staying Well |
+| Heart Healthy Living | Heart-healthy living | Staying Well |
+| Ottawa Personal Decision Guide for Two | Making a decision together with someone else | Staying Well |
+| Portfolio Diet | The Portfolio Diet — eating to lower cholesterol | Staying Well |
+| Ottawa Personal Decision Guide | Weighing up a treatment choice — decision guide | Staying Well |
+| Symptom Recognition Checklist | When should I call? A symptom checklist | Staying Well |
+| Signs of a Stroke | How to recognise a stroke | Stroke |
+| Stroke Warning Signs | Warning signs of a stroke | Stroke |

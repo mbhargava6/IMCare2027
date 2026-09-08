@@ -27,6 +27,7 @@
     var subs = Array.prototype.slice.call(document.querySelectorAll("[data-sub]"));
     var sections = Array.prototype.slice.call(document.querySelectorAll("[data-section]"));
     var count = document.getElementById("tool-count");
+    var picker = document.getElementById("topic-picker");
     var empty = document.getElementById("tool-empty");
     var total = items.length;
     var timer;
@@ -47,11 +48,12 @@
         el.hidden = !el.querySelector("[data-item]:not([hidden])");
       });
 
+      if (picker) picker.hidden = q.length > 0;
       if (empty) empty.hidden = shown !== 0;
       if (count) {
         count.textContent = q
-          ? shown + (shown === 1 ? " resource matches" : " resources match") + ' "' + input.value.trim() + '"'
-          : "Showing all " + total + " resources.";
+          ? shown + (shown === 1 ? " result for " : " results for ") + '"' + input.value.trim() + '"'
+          : "";
       }
     }
 
