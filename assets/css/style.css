@@ -7,7 +7,10 @@
 /* ---------- Fonts ---------- */
 @font-face {
   font-family: "Playfair Display";
-  src: url("/assets/fonts/playfair-display.woff2") format("woff2");
+  /* Path is relative to this stylesheet, not to the site root — that way it
+     resolves whether the site is served from mbhargava6.github.io/IMCare2027/
+     or from imcare.ca, without depending on baseurl. */
+  src: url("../fonts/playfair-display.woff2") format("woff2");
   font-weight: 400 700;
   font-style: normal;
   font-display: swap;

@@ -242,3 +242,23 @@ read the feed at page load without JavaScript that Substack's CORS policy may
 block. If recent posts on the site are wanted, the reliable route is to add
 the three or four current titles to `_data/site.yml` by hand and refresh them
 when a new post goes out.
+
+## Live-site check — 8 September 2026
+
+The site went live at `mbhargava6.github.io/IMCare2027/` and was checked in a
+real browser rather than only against the local build.
+
+**Passed:** all 9 pages return 200; all 59 internal URLs resolve (pages, the
+29 PDFs, images, CSS, JS) with nothing broken; no broken images; the crimson
+palette, 17px base type and warm background all render as intended.
+
+**One bug found and fixed.** The `@font-face` rule pointed at
+`/assets/fonts/playfair-display.woff2` — a path from the site root. Once
+`baseurl: "/IMCare2027"` was added, that address 404'd and every heading fell
+back to Georgia. Nothing visibly failed: the page just quietly rendered in the
+wrong typeface. The rule now uses `../fonts/…`, relative to the stylesheet, so
+it resolves both under the project URL and later at imcare.ca.
+
+Worth remembering: **`relative_url` only applies inside Liquid templates.**
+Paths written inside a plain `.css` file get no baseurl, so any future
+`url(...)` in the stylesheet should be written relative to the stylesheet.
