@@ -280,8 +280,11 @@ page too. Both are changed — naming one test two ways on one website invites
 the question of whether they are two different tests. This also now reads
 distinctly from the stress echo, which has its own preparation handout.
 
-**Statutory holidays.** Added as you suggested. It is not in the machine-
-readable opening hours that Google reads, because the schema has no way to say
+**Statutory holidays.** Added as you suggested. On the home page it sits in
+the hours tile, which previously repeated the street address — the address is
+in the footer and one click away on Directions, so the tile now completes the
+hours instead. It is not in the machine-readable opening hours that Google
+reads, because the schema has no way to say
 "statutory holidays" without listing each date; the hours there still read
 Monday–Friday 09:00–17:00.
 
