@@ -297,3 +297,21 @@ stroke" on the Patient Tools page. Canadian English keeps the British
 *-our* and *-re* endings (colour, centre) but takes the American *-ize*, so
 those were left alone and only the *-ise* forms changed. A sweep confirms no
 *-ise* spellings remain in any patient-facing text.
+
+## Dr. Sharma's biography rewritten — 19 September 2026
+
+Replaced word-for-word with text supplied by Dr. Bhargava. The previous version
+listed thyroid disorders and inflammatory arthritis among her interests; the
+new one states she is not accepting new patients for either.
+
+Two things left as they were, for a decision:
+
+1. **Her listed role is still "Internal Medicine Specialist."** The new
+   biography is dermatology-led — skin disease, dermoscopy, teaching
+   dermoscopy. A patient scanning the role line rather than reading the
+   paragraph may not realise she is the person to see about a mole. Worth
+   considering whether the role should say so.
+2. **The "not accepting new patients" sentence sits only in her biography.**
+   It is the kind of line patients miss and referring offices need. If it
+   should be more prominent — on the Services page, or alongside the referral
+   instructions on Contact — say so and it can be surfaced there too.
