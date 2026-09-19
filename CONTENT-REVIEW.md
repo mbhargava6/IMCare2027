@@ -72,12 +72,12 @@ operation that was not already on the old site.
    Murphy, Kathy Boon, Loretta Tamburello. Obed Adarkwah and Simran Jeet were
    hidden on 8 September 2026 at Dr. Bhargava's request.
 4. **External links were not machine-checked.** 60 of the 77 Patient Tools
-   links point to other organisations' websites (Ottawa Heart, AAD, Cleveland
+   links point to other organizations' websites (Ottawa Heart, AAD, Cleveland
    Clinic, Vimeo, YouTube). They should be clicked through once before launch.
 
 ## Patient Tools rebuilt in plain language — 8 September 2026
 
-Dr. Bhargava asked for the page to be organised by what a patient actually
+Dr. Bhargava asked for the page to be organized by what a patient actually
 came looking for, in words a patient would use.
 
 **All 77 links are still there.** This was verified link-by-link against the
@@ -207,7 +207,7 @@ destination of each is unchanged.
 | Portfolio Diet | The Portfolio Diet — eating to lower cholesterol | Staying Well |
 | Ottawa Personal Decision Guide | Weighing up a treatment choice — decision guide | Staying Well |
 | Symptom Recognition Checklist | When should I call? A symptom checklist | Staying Well |
-| Signs of a Stroke | How to recognise a stroke | Stroke |
+| Signs of a Stroke | How to recognize a stroke | Stroke |
 | Stroke Warning Signs | Warning signs of a stroke | Stroke |
 
 ## Beyond the Heartline — added 8 September 2026
@@ -262,3 +262,35 @@ it resolves both under the project URL and later at imcare.ca.
 Worth remembering: **`relative_url` only applies inside Liquid templates.**
 Paths written inside a plain `.css` file get no baseurl, so any future
 `url(...)` in the stylesheet should be written relative to the stylesheet.
+
+## Changes requested 19 September 2026
+
+| Change | Where it now appears |
+| --- | --- |
+| "Cardiac Stress Testing" → **"Exercise Cardiac Stress Testing"** | Home page diagnostic services list; also changed on the Services page and in the page's search description, so the service is named the same way everywhere |
+| **"Closed on statutory holidays."** | Home page hours tile, Contact, Directions, and the footer of every page |
+| **48 hours' notice to change or cancel** | Contact (first line under Appointments) and Directions, both in bold |
+| British → Canadian spelling | "organisations" → "organizations" on Patient Tools; "How to recognise a stroke" → "recognize" |
+
+### Notes on each
+
+**Exercise cardiac stress testing.** You pointed at the diagnostic services
+list, but the same test was named "Cardiac stress testing" on the Services
+page too. Both are changed — naming one test two ways on one website invites
+the question of whether they are two different tests. This also now reads
+distinctly from the stress echo, which has its own preparation handout.
+
+**Statutory holidays.** Added as you suggested. It is not in the machine-
+readable opening hours that Google reads, because the schema has no way to say
+"statutory holidays" without listing each date; the hours there still read
+Monday–Friday 09:00–17:00.
+
+**48 hours.** This replaced the softer line that previously read "please let us
+know as early as you can". Both sentences live in `_data/site.yml` under
+`cancellation_notice`, so the wording can be adjusted in one place.
+
+**Spelling.** The fix was not one word. The site also had "How to recognise a
+stroke" on the Patient Tools page. Canadian English keeps the British
+*-our* and *-re* endings (colour, centre) but takes the American *-ize*, so
+those were left alone and only the *-ise* forms changed. A sweep confirms no
+*-ise* spellings remain in any patient-facing text.

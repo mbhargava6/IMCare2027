@@ -25,9 +25,10 @@ wide: true
     <ul class="detail-list">
       <li><span class="k">Open</span><span class="v">{{ S.hours.summary }}</span></li>
       <li><span class="k">Booking</span><span class="v" style="font-weight:400">{{ S.hours.note }}</span></li>
+      <li><span class="k">Holidays</span><span class="v" style="font-weight:400">{{ S.hours.holidays }}</span></li>
     </ul>
     <p style="margin-top:1rem">Please bring your health card, a list of your current medications, and any test results or letters you have been given.</p>
-    <p>If you need to change your appointment, please let us know as early as you can so we can offer the time to another patient.</p>
+    <p><strong>{{ S.cancellation_notice }}</strong></p>
   </div>
 </div>
 

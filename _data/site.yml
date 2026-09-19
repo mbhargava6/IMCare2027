@@ -12,9 +12,13 @@ tagline: "Internal Medicine specialists in Port Hope, Ontario"
 hours:
   summary: "Monday to Friday, 9:00 am – 5:00 pm"
   note: "By appointment only."
+  holidays: "Closed on statutory holidays."
   days: "Mo,Tu,We,Th,Fr"
   opens: "09:00"
   closes: "17:00"
+
+# Shown on the Contact and Directions pages.
+cancellation_notice: "Please give us at least 48 hours' notice to change or cancel an appointment, so we can offer the time to another patient."
 
 phone: "(289) 207-3200"
 phone_link: "+12892073200"

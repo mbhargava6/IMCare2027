@@ -29,6 +29,7 @@ hide_cta: true
   <div class="info-card">
     <h3>{% include icon.html name="calendar" %} Appointments</h3>
     <ul>
+      <li><strong>{{ S.cancellation_notice }}</strong></li>
       <li>To change an appointment, message us through the patient portal or call the office.</li>
       <li>You can ask to set up a home video visit.</li>
     </ul>
@@ -73,7 +74,7 @@ hide_cta: true
     <ul class="detail-list">
       <li><span class="k">Address</span><span class="v">{{ S.address.line1 }}<br>{{ S.address.city }} {{ S.address.province }} {{ S.address.postal_code }}</span></li>
       <li><span class="k">Finding us</span><span class="v" style="font-weight:400">{{ S.address.landmark }}</span></li>
-      <li><span class="k">Hours</span><span class="v">{{ S.hours.summary }}<br><span style="font-weight:400">{{ S.hours.note }}</span></span></li>
+      <li><span class="k">Hours</span><span class="v">{{ S.hours.summary }}<br><span style="font-weight:400">{{ S.hours.note }} {{ S.hours.holidays }}</span></span></li>
     </ul>
     <p style="margin-top:1rem"><a class="btn btn--outline btn--sm" href="{{ '/directions/' | relative_url }}">Directions and map</a></p>
   </div>

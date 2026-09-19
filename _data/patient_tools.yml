@@ -1,11 +1,11 @@
 # ---------------------------------------------------------------------------
-# Patient Tools — organised by what a patient came looking for.
+# Patient Tools — organized by what a patient came looking for.
 #
 # Structure:  topic  ->  groups (Read / Watch / Print)  ->  links
 #   name    what the patient sees. Plain language first, medical term after
 #           it in brackets where the medical word is worth knowing.
 #   link    starts with "/"  = a PDF on this site
-#           starts with http = another organisation's website, opens in a
+#           starts with http = another organization's website, opens in a
 #                              new tab
 #
 # The PDF / Video / Web label on each link is worked out automatically.
@@ -123,7 +123,7 @@
   subsections:
     - name: "Watch a short video"
       elements:
-        - name: "How to recognise a stroke"
+        - name: "How to recognize a stroke"
           link: https://www.youtube.com/watch?v=HUjYQBFoRqo
     - name: "Handouts to print"
       elements:
